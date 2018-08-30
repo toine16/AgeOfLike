@@ -17,9 +17,5 @@ namespace AgeOfLike.Factory.Unites.Commun
             Defense = 3;
         }
 
-        public override Soldat Combattre(Soldat ennemi)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

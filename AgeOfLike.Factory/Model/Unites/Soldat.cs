@@ -14,7 +14,11 @@ namespace AgeOfLike.Factory.Model.Unites
         public int Or { get; set; }
         public int Nourriture { get; set; }
 
-        public abstract Soldat Combattre(Soldat ennemi);
+        public void Combattre(Soldat ennemi)
+        {
+            this.Vie -= ennemi.Attaque - this.Defense;
+            ennemi.Vie -= this.Attaque - ennemi.Defense;
+        }
         public bool EstEnVie()
         {
             if(Vie >= 1)

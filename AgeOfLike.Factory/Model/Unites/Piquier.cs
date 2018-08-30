@@ -15,10 +15,5 @@ namespace AgeOfLike.Factory.Model.Unites
             Attaque = 2;
             Defense = 4;
         }
-
-        public override Soldat Combattre(Soldat ennemi)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
