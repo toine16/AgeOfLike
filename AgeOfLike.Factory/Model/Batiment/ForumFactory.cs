@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AgeOfLike.Factory
+namespace AgeOfLike.Factory.Batiment.Commun
 {
-    public class Class1
+    public abstract class ForumFactory
     {
+        public abstract Forum CreationForum();
     }
 }
