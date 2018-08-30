@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AgeOfLike.Factory.Unites.Commun
+namespace AgeOfLike.Factory.Model.Unites
 {
     public abstract class Soldat
     {
