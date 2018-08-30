@@ -1,14 +1,39 @@
-﻿using System;
+﻿using AgeOfLike.Factory.Model.Factory;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AgeOfLike.Factory.Batiment.Commun
+namespace AgeOfLike.Factory.Model.Batiment
 {
-    public abstract class Forum
+    public class Forum : BuildingFactory
     {
-        public abstract Caserne CreationCaserne();
+        public Forum()
+        {
+            Bois = 500;
+            Pierre = 800;
+            Population = 30;
+        }
 
+        public override Building CreationBuilding()
+        {
+            return new Building();
+        }
+
+        public override Caserne CreationCaserne()
+        {
+            return new Caserne();
+        }
+
+        public override Forum CreationForum()
+        {
+            return new Forum();
+        }
+
+        public override Maison CreationMaison()
+        {
+            return new Maison();
+        }
     }
 }

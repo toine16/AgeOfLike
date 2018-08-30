@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace AgeOfLike.Factory.Model.Batiment
 {
-    public class Caserne : Building
+    public class Maison : Building
     {
-        public Caserne()
+        public Maison()
         {
-            Bois = 200;
-            Pierre = 150;
+            Bois = 50;
+            Pierre = 35;
+            Population = 20;
         }
     }
 }

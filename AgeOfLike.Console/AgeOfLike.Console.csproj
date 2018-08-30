@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2375FA91-6360-4463-90E5-12A40ECDEEA5}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{953B3E0B-6D61-4746-9AA8-9DEDC144D8E0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AgeOfLike.Factory</RootNamespace>
-    <AssemblyName>AgeOfLike.Factory</AssemblyName>
+    <RootNamespace>AgeOfLike.Console</RootNamespace>
+    <AssemblyName>AgeOfLike.Console</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,17 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\Batiment\Building.cs" />
-    <Compile Include="Model\Factory\BuildingFactory.cs" />
-    <Compile Include="Model\Batiment\Caserne.cs" />
-    <Compile Include="Model\Batiment\Maison.cs" />
-    <Compile Include="Model\Unites\Fantassin.cs" />
-    <Compile Include="Model\Batiment\Forum.cs" />
-    <Compile Include="Model\Unites\Piquier.cs" />
-    <Compile Include="Model\Unites\Soldat.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AgeOfLike.Factory\AgeOfLike.Factory.csproj">
+      <Project>{2375fa91-6360-4463-90e5-12a40ecdeea5}</Project>
+      <Name>AgeOfLike.Factory</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

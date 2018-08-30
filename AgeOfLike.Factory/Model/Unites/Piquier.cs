@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AgeOfLike.Factory.Batiment.Commun
+namespace AgeOfLike.Factory.Unites.Commun
 {
     public class Piquier : Soldat
     {
