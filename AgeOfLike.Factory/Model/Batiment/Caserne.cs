@@ -9,12 +9,13 @@ using AgeOfLike.Factory.Unites.Commun;
 
 namespace AgeOfLike.Factory.Model.Batiment
 {
-    public class Caserne : Building, CaserneFactory
+    public class Caserne : Building
     {
         public Caserne()
         {
             Bois = 200;
             Pierre = 150;
+            Vie = 200;
         }
 
         public Fantassin CreationFantassin()

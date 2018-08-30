@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace AgeOfLike.Factory.Model.Unites
 {
-    public class Piquier : Soldat
+    public class Cavalier : Soldat
     {
-
-        public Piquier()
+        public Cavalier()
         {
-            Vie = 14;
-            Attaque = 2;
-            Defense = 4;
+            Vie = 20;
+            Attaque = 7;
+            Defense = 2;
         }
-
         public override Soldat Combattre(Soldat ennemi)
         {
             throw new NotImplementedException();

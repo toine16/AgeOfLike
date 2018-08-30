@@ -13,6 +13,7 @@ namespace AgeOfLike.Factory.Model.Batiment
             Bois = 50;
             Pierre = 35;
             Population = 20;
+            Vie = 100;
         }
     }
 }

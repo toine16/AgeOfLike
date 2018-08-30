@@ -14,6 +14,7 @@ namespace AgeOfLike.Factory.Model.Batiment
             Bois = 500;
             Pierre = 800;
             Population = 30;
+            Vie = 400;
         }
 
         public override Building CreationBuilding()

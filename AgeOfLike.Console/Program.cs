@@ -16,6 +16,10 @@ namespace AgeOfLike.Console
 
             System.Console.WriteLine("Création d'une nouvelle " + maCaserne.GetType());
             System.Console.WriteLine("Abrite  " + maCaserne.Population);
+
+            Caserne ca = ff.CreationCaserne();
+            ca.CreationFantassin();
+
             maCaserne = ff.CreationMaison();
             System.Console.WriteLine("Création d'une nouvelle " + maCaserne.GetType());
             System.Console.WriteLine("Abrite  " + maCaserne.Population);
