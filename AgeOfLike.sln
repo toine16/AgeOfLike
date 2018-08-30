@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeOfLike.Factory", "AgeOfL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeOfLike.Console", "AgeOfLike.Console\AgeOfLike.Console.csproj", "{953B3E0B-6D61-4746-9AA8-9DEDC144D8E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeOfLike.WPF", "AgeOfLike.WPF\AgeOfLike.WPF.csproj", "{B8F916B4-D101-4206-AC63-8B303322EBF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{953B3E0B-6D61-4746-9AA8-9DEDC144D8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{953B3E0B-6D61-4746-9AA8-9DEDC144D8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{953B3E0B-6D61-4746-9AA8-9DEDC144D8E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F916B4-D101-4206-AC63-8B303322EBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F916B4-D101-4206-AC63-8B303322EBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F916B4-D101-4206-AC63-8B303322EBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F916B4-D101-4206-AC63-8B303322EBF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

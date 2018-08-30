@@ -5,10 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AgeOfLike.WPF"
         mc:Ignorable="d"
-        Title="Village" Height="350" Width="525">
+        Title="Village" Height="350" Width="600"
+         DataContext="{Binding Source={StaticResource VuePrincipale}}">
     <Grid Margin="0,0,10,4">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
+            <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -20,6 +22,7 @@
             <TextBlock Text="0 Or" Margin="0 0 10 0"/>
             <TextBlock Text="0 Pierre" Margin="0 0 10 0"/>
             <TextBlock Text="0 Nourriture" Margin="0 0 10 0" />
+            <TextBlock Text="0/100 pop" Margin="0 0 10 0" />
         </WrapPanel>
         <ListView Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" Margin="0,0,-11,0"></ListView>
         <StackPanel Grid.Column="0" Grid.Row="1">
@@ -28,6 +31,10 @@
             <Button Content="Construire Maison" />
             <Button Content="Enroler des soldats" />
         </StackPanel>
+        <Viewbox Grid.Row="2" Grid.Column="0">
+            
+            
+        </Viewbox>
        
 
 
