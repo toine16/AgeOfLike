@@ -36,5 +36,10 @@ namespace AgeOfLike.Factory.Model.Batiment
         {
             return new Maison();
         }
+
+        public override string ToString()
+        {
+            return "Forum";
+        }
     }
 }

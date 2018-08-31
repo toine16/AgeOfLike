@@ -15,5 +15,10 @@ namespace AgeOfLike.Factory.Model.Unites
             Attaque = 2;
             Defense = 4;
         }
+
+        public override string ToString()
+        {
+            return "Piquier";
+        }
     }
 }

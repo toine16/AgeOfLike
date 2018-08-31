@@ -21,5 +21,10 @@ namespace AgeOfLike.Factory.Model.Batiment
         {
             return new Cavalier();
         }
+
+        public override string ToString()
+        {
+            return "Ecurie";
+        }
     }
 }

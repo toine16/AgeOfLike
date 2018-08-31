@@ -45,6 +45,7 @@
     <Compile Include="Model\Factory\BuildingFactory.cs" />
     <Compile Include="Model\Batiment\Caserne.cs" />
     <Compile Include="Model\Batiment\Maison.cs" />
+    <Compile Include="Model\Ressources.cs" />
     <Compile Include="Model\Unites\Cavalier.cs" />
     <Compile Include="Model\Unites\Fantassin.cs" />
     <Compile Include="Model\Batiment\Forum.cs" />

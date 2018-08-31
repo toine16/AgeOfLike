@@ -15,5 +15,10 @@ namespace AgeOfLike.Factory.Model.Batiment
             Population = 20;
             Vie = 100;
         }
+
+        public override string ToString()
+        {
+            return "Maison";
+        }
     }
 }

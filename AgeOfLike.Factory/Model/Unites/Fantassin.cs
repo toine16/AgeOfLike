@@ -17,5 +17,9 @@ namespace AgeOfLike.Factory.Unites.Commun
             Defense = 3;
         }
 
+        public override string ToString()
+        {
+            return "Fantassin";
+        }
     }
 }

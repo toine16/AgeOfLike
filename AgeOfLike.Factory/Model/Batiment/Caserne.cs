@@ -27,5 +27,10 @@ namespace AgeOfLike.Factory.Model.Batiment
         {
             return new Piquier();
         }
+
+        public override string ToString()
+        {
+            return "Caserne";
+        }
     }
 }

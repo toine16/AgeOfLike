@@ -14,5 +14,10 @@ namespace AgeOfLike.Factory.Model.Unites
             Attaque = 7;
             Defense = 2;
         }
+
+        public override string ToString()
+        {
+            return "Cavalier";
+        }
     }
 }
